@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <!--/*/ <th:block th:include="fragments/head :: head"></th:block> /*/-->
+    <title>TaskFlow</title>
+    <style>
+        /* Additional CSS styles for enhanced engagement */
+        .hero-bg {
+            background-color: seashell;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            text-align: center;
+        }
+
+        .btn-primary {
+            background-color: #ff6f61;
+            border-color: #ff6f61;
+        }
+
+        .btn-primary:hover {
+            background-color: #e65150;
+            border-color: #e65150;
+        }
+    </style>
+</head>
+
+<body>
+<header>
+    <!--/*/ <th:block th:include="fragments/header :: header('home')"></th:block> /*/-->
+</header>
+
+<main class="container">
+    <div class="hero-bg">
+        <h1 class="display-4">Welcome to TaskFlow</h1>
+        <p class="lead">Simplifying Student and Lecturer Task Management</p>
+        
+        <p>Empower your academic journey with TaskFlow – the ultimate task management tool designed for students and lecturers. Seamlessly organize assignments, projects, and deadlines while fostering collaboration and efficiency. Whether you're a student aiming for excellence or an educator streamlining tasks, TaskFlow is your all-in-one solution. Join us and experience a new era of productivity and success.</p>
+        <p>Most features require logging in. Not authorized users have access to the welcome screen and login or registration panel.</p>
+
+        <a class="btn btn-primary btn-lg" href="/login" role="button">Get Started</a>
+    </div>
+
+    <h2 class="my-second-header">Test users:</h2>
+    <ul>
+        <li>manager@mail.com, password: 112233</li>
+        <li>ann@mail.com, password: 112233</li>
+        <li>mark@mail.com, password: 112233</li>
+    </ul>
+</main>
+
+<footer class="footer">
+    <!--/*/ <th:block th:include="fragments/footer :: footer"></th:block> /*/-->
+</footer>
+
+</body>
+</html>
